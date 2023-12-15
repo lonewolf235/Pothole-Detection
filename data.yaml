@@ -1,0 +1,9 @@
+train: D:/Datasets/pothole_dataset/Pothole main dataset/train/images
+val: D:/Datasets/pothole_dataset/Pothole main dataset/valid/images
+test: D:/Datasets/pothole_dataset/Pothole main dataset/test//images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  url: https://universe.roboflow.com/brad-dwyer/pothole-voxrl/dataset/1
